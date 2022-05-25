@@ -13,7 +13,7 @@ function initDB(){
         // console.log("connected to mongo")
     })
     mongoose.connection.on('error',(err)=>{
-        https://krishiconnect.vercel.app/console.log("error connecting",err)
+        console.log("error connecting",err)
     })
 }
 
